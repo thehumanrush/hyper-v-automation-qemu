@@ -1,5 +1,7 @@
 # Based on https://github.com/fdcastel/Hyper-V-Automation
 
+### * Added qemu-img.exe in "tools" folder
+
 # Hyper-V automation scripts
 
 Collection of Powershell scripts to create Windows, Ubuntu and Debian VMs in Hyper-V.
