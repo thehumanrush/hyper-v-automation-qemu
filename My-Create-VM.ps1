@@ -8,5 +8,5 @@ $vm = @(
 )
 
 for ($i = 0; $i -lt $vm.Count; $i++) {
-.\New-VMFromUbuntuImage.ps1 -SourcePath $imgFile -VMName $vm[$i].name -FQDN $vm[$i].fqdn -RootPublicKey $rootPublicKey -VHDXSizeBytes 30GB -MemoryStartupBytes 2GB -ProcessorCount 2 -SwitchName 'bridge-ultimatewarrior' -InterfaceName 'eth0' -IPAddress $vm[$i].ip -Gateway $gateway -DnsAddresses '1.1.1.1','8.8.8.8' -Verbose
+.\New-VMFromUbuntuImage.ps1 -SourcePath $imgFile -VMName $vm[$i].name -FQDN $vm[$i].fqdn -RootPublicKey $rootPublicKey -VHDXSizeBytes 30GB -MemoryStartupBytes 2GB -ProcessorCount 2 -SwitchName '<hyper-v switch name>' -InterfaceName 'eth0' -IPAddress $vm[$i].ip -Gateway $gateway -DnsAddresses '1.1.1.1','8.8.8.8' -Verbose
 }
