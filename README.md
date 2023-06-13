@@ -2,6 +2,8 @@
 
 ### * Added qemu-img.exe in "tools" folder
 
+### * My-Create-VM.ps1 is custom powershell script to create ubuntu based vm. You need to download the ubuntu cloud image first and configure ssh key pair.
+
 # Hyper-V automation scripts
 
 Collection of Powershell scripts to create Windows, Ubuntu and Debian VMs in Hyper-V.
