@@ -1,5 +1,5 @@
-$imgFile = "C:\Users\bangjago\Downloads\iso\ubuntu-22.10-server-cloudimg-amd64.img"
-$rootPublicKey = Get-Content "C:\Users\bangjago\.ssh\id_rsa.pub"
+$imgFile = "C:\Users\<user>\Downloads\iso\ubuntu-22.10-server-cloudimg-amd64.img"
+$rootPublicKey = Get-Content "C:\Users\<user>\.ssh\id_rsa.pub"
 
 $gateway = "192.168.43.1"
 $vm = @(
