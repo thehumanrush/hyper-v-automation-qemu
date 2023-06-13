@@ -1,0 +1,1 @@
+Get-VM | format-list VMname, VMID
